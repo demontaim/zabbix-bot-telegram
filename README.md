@@ -39,3 +39,19 @@ Para crear un bot de Telegram, debe iniciar sesión en Telegram y buscar el bot 
 demontaim@heaven:~$ /newbot
 
 ```
+
+Después de crear el bot, otorgarle una descripción y nombre, el BotFather le dará un token de acceso. Guarde este token de acceso, ya que lo necesitará más adelante.
+
+### 2. Crear un canal de Telegram
+
+Creamos un canal de Telegram e invitamos al bot de Telegram como si de un usuario normal se tratara.
+
+A su vez también añadimos al bot RawDataBot, que nos permitirá obtener el ID del canal.
+
+Una vez que tenemos a los dos bots en el grupo escribimos /getgroupid y automáticamente nos devolverá el ID de la sección Chat que usaremos con el Token para configurar Zabbix.
+
+```console
+
+demontaim@heaven:~$ /getgroupid
+
+```
