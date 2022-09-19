@@ -1,6 +1,6 @@
-# zabbix-bot-telegram
+# Bot de Telegram para Servidores Zabbix
 
-Documentación sobre como implementar un bot Zabbix en Telegram.
+Documentación sobre como implementar un bot de Telegram en un servidor Zabbix.
 
 ---
 
