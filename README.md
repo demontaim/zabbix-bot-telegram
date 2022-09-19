@@ -2,6 +2,8 @@
 
 Documentación sobre como implementar un bot Zabbix en Telegram.
 
+---
+
 ## Requisitos
 
 * Servidor Zabbix 3.0 o superior
@@ -23,6 +25,8 @@ Un canal de Telegram es un tipo de chat que puede tener un número ilimitado de 
 ## ¿Cómo funciona?
 
 El bot de Telegram se comunica con el servidor Zabbix a través de la API de Zabbix. El bot de Telegram se comunica con el canal de Telegram a través de la API de Telegram. Se reciben alertas de los servidores Zabbix y se envían a los canales de Telegram.
+
+---
 
 ## Guía paso a paso
 
