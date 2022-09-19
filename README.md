@@ -35,5 +35,7 @@ El bot de Telegram se comunica con el servidor Zabbix a través de la API de Zab
 Para crear un bot de Telegram, debe iniciar sesión en Telegram y buscar el bot @BotFather. Luego, envíe el comando /newbot y siga las instrucciones.
 
 ```console
-$ /newbot
+
+demontaim@heaven:~$ /newbot
+
 ```
