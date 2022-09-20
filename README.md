@@ -367,3 +367,31 @@ Item values:
 Item Graphic:[{ITEM.ID1}]
 
 ```
+
+En los detalles de la operación debemos añadir a los usuarios a los que les llegará el mensaje:
+
+![Añadir usuarios](./images/telegram-5.png)
+
+Y actualizamos los cambios.
+
+---
+
+### Añadimos el ID del grupo de Telegram
+
+Para que el bot pueda enviar mensajes a un grupo de Telegram debemos añadir el ID del grupo al script que hemos creado.
+
+En **Administración --> Usuarios --> Editar usuario --> Medio** introducimos el ID del grupo de Telegram:
+
+![Añadir ID del grupo](./images/telegram-6.png)
+
+Confirmamos que se nos ha agregado:
+
+![Confirmar ID del grupo](./images/telegram-7.png)
+
+---
+
+### Probamos el envío de mensajes
+
+Vamos a **Administración --> Media Types** elegimos la opción **Test** y seleccionamos el medio que hemos creado:
+
+![Test de notificaciones](./images/telegram-8.png)
