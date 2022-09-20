@@ -331,3 +331,12 @@ demontaim@heaven:~$ sudo chmod +x /etc/zabbix/scripts/telegram.sh
 Vamos a la sección de **Administración** --> **Tipos de medios** y creamos uno nuevo:
 
 ![](./images/telegram-1.png)
+
+Configuramos un medio tipo script que ejecute el script que hemos creado:
+
+![](./images/telegram-2.png)
+
+Para que nuestro script funcione debemos indicarle una acción:
+
+![](./images/telegram-3.png)
+
