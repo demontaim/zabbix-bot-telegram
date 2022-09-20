@@ -398,4 +398,4 @@ Vamos a **Administración --> Media Types** elegimos la opción **Test** y selec
 
 Si hemos realizado toda la configuración correctamente deberíamos recibir un mensaje en el grupo de Telegram tal que así:
 
-![Mensaje de prueba](./images/telegram-9.png)
+<p align="center"><img src="./images/telegram-9.png" alt="Mensaje de prueba"></p>
