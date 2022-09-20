@@ -344,15 +344,19 @@ En la pestaña **Operaciones** indicamos los parámetros por defecto que tendrá
 
 ![Parámetros del mensaje](./images/telegram-4.png)
 
+**Asunto por defecto**:
+
 ```console
 
-**Asunto por defecto**: {TRIGGER.STATUS} {TRIGGER.SEVERITY} {TRIGGER.NAME} on {HOST.NAME1}
+{TRIGGER.STATUS} {TRIGGER.SEVERITY} {TRIGGER.NAME} on {HOST.NAME1}
 
 ```
 
+**Mensaje por defecto**:
+
 ```console
 
-**Mensaje por defecto**: Trigger:{TRIGGER.NAME}
+Trigger:{TRIGGER.NAME}
 Trigger status:{TRIGGER.STATUS}
 Trigger severity:{TRIGGER.SEVERITY}
 Trigger URL:{TRIGGER.URL}
