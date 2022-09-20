@@ -301,3 +301,29 @@ rm -f ${ZABBIXMSG}
 exit 0
 
 ```
+
+Le damos permisos de ejecución al script:
+
+```console
+
+demontaim@heaven:~$ sudo chmod +x /etc/zabbix/scripts/telegram.sh
+
+```
+
+### Modificamos los parámetros de la acción
+
+**ZBX_URL**: URL de Zabbix.
+
+**USERNAME**: User de Zabbix.
+
+**PASSWORD**: Password de Zabbix.
+
+**ZABBIXVERSION44**: Si la versión de Zabbix es 3.4 o superior poner 1, si es inferior poner 0.
+
+**BOT_TOKEN**: Token del bot de Telegram.
+
+### Creamos un medio de comunicación
+
+Vamos a la sección de **Administración** --> **Tipos de medios** y creamos uno nuevo:
+
+![](./images/telegram-1.png)
