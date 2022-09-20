@@ -395,3 +395,7 @@ Confirmamos que se nos ha agregado:
 Vamos a **Administración --> Media Types** elegimos la opción **Test** y seleccionamos el medio que hemos creado:
 
 ![Test de notificaciones](./images/telegram-8.png)
+
+Si hemos realizado toda la configuración correctamente deberíamos recibir un mensaje en el grupo de Telegram tal que así:
+
+![Mensaje de prueba](./images/telegram-9.png)
