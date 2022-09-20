@@ -310,6 +310,8 @@ demontaim@heaven:~$ sudo chmod +x /etc/zabbix/scripts/telegram.sh
 
 ```
 
+---
+
 ### Modificamos los parámetros de la acción
 
 **ZBX_URL**: URL de Zabbix.
@@ -322,7 +324,7 @@ demontaim@heaven:~$ sudo chmod +x /etc/zabbix/scripts/telegram.sh
 
 **BOT_TOKEN**: Token del bot de Telegram.
 
-~~~
+---
 
 ### Creamos un medio de comunicación
 
