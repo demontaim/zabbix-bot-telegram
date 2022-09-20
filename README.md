@@ -322,6 +322,8 @@ demontaim@heaven:~$ sudo chmod +x /etc/zabbix/scripts/telegram.sh
 
 **BOT_TOKEN**: Token del bot de Telegram.
 
+~~~
+
 ### Creamos un medio de comunicación
 
 Vamos a la sección de **Administración** --> **Tipos de medios** y creamos uno nuevo:
