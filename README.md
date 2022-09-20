@@ -330,13 +330,28 @@ demontaim@heaven:~$ sudo chmod +x /etc/zabbix/scripts/telegram.sh
 
 Vamos a la sección de **Administración** --> **Tipos de medios** y creamos uno nuevo:
 
-![](./images/telegram-1.png)
+![Crear un nuevo medio](./images/telegram-1.png)
 
 Configuramos un medio tipo script que ejecute el script que hemos creado:
 
-![](./images/telegram-2.png)
+![Configurar como Script](./images/telegram-2.png)
 
 Para que nuestro script funcione debemos indicarle una acción:
 
-![](./images/telegram-3.png)
+![Indicarle una acción](./images/telegram-3.png)
 
+En la pestaña **Operaciones** indicamos los parámetros por defecto que tendrá el mensaje:
+
+![Parámetros del mensaje](./images/telegram-4.png)
+
+**Asunto por defecto**: {TRIGGER.STATUS} {TRIGGER.SEVERITY} {TRIGGER.NAME} on {HOST.NAME1}
+
+**Mensaje por defecto**: Trigger:{TRIGGER.NAME}
+Trigger status:{TRIGGER.STATUS}
+Trigger severity:{TRIGGER.SEVERITY}
+Trigger URL:{TRIGGER.URL}
+ 
+Item values:
+1.{ITEM.NAME1}({HOST.NAME1}:{ITEM.KEY1}):{ITEM.VALUE1}
+
+Item Graphic:[{ITEM.ID1}]
